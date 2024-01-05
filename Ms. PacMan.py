@@ -14,7 +14,7 @@ ale.setBool('sound', True)
 
 # Load the Ms. PacMan ROM
 #ale.loadROM("C:\\Users\\jimbu\\Atari\\Ms. PacMan.a26") #Windows
-ale.loadROM("/Users/beusse/Atari/Ms. PacMan.a26") #Mac
+ale.loadROM("/Users/jamesbeusse/Atari/Ms. PacMan.a26") #Mac
 
 # Get the size of the action space
 num_actions = len(ale.getMinimalActionSet())
